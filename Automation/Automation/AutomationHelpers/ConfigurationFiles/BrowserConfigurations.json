@@ -1,0 +1,36 @@
+{
+  "cloudcaps": {
+    "name": "Python Framework Web Test",
+    "browser": "Chrome",
+    "version": "70.0",
+    "os": "Windows",
+    "os_version": "10",
+    "username": "kishoreg1",
+    "accessKey": "oWPPT85vvEzuYnR6ses2",
+    "screenResolution": "1280x1024",
+    "timeZone": "Los Angeles",
+    "extendedDebugging": false
+  },
+  "gridcaps": {
+    "rotatable": "False",
+    "browserConnectionEnabled": "False",
+    "acceptSslCerts": "False",
+    "cssSelectorsEnabled": "True",
+    "javascriptEnabled": "True",
+    "nativeEvents": "True",
+    "locationContextEnabled": "False",
+    "takesScreenshot": "True",
+    "platform": "Windows",
+    "browserName": "chrome",
+    "applicationCacheEnabled": "False",
+    "webStorageEnabled": "True",
+    "handlesAlerts": "True",
+    "chrome.nativeEvents": "False"
+  },
+  "remoteURL": {
+    "url": "https://kishoreg1:oWPPT85vvEzuYnR6ses2@hub-cloud.browserstack.com/wd/hub"
+  },
+  "remoteExecution": {
+    "type": "cloud"
+  }
+}
