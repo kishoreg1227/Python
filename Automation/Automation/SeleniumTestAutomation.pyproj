@@ -26,12 +26,15 @@
     <Folder Include="AutomationHelpers\DriverHelpers\" />
     <Folder Include="AutomationHelpers\ConfigurationFiles\" />
     <Folder Include="AutomationHelpers\JSonHelpers\" />
+    <Folder Include="AutomationHelpers\StringHelpers\" />
+    <Folder Include="AutomationHelpers\StringHelpers\__pycache__\" />
     <Folder Include="Pages\" />
     <Folder Include="Tests\" />
     <Folder Include="AutomationHelpers\" />
     <Folder Include="AutomationHelpers\WebElementHelpers\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AutomationHelpers\StringHelpers\StringHelpers.py" />
     <Compile Include="Pages\HomePage.py" />
     <Compile Include="Pages\BasePage.py" />
     <Compile Include="Tests\SampleTests.py" />
@@ -47,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AutomationHelpers\ConfigurationFiles\BrowserConfigurations.json" />
+    <Content Include="AutomationHelpers\StringHelpers\__pycache__\StringHelpers.cpython-36.pyc" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
